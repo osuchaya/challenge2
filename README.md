@@ -14,8 +14,10 @@ Images used in the applications were downloaded and saved from Google searched r
 
 ## Credits
 The author has done a lot of outside research or GoogleFu by looking up codes to carry out certain functions such as Flexbox, Pseudo element (hover), how to embed links in images. The main sources are StackOverflow forum, W3schools website and CSS-tricks.
-www.w3schools.com
-www.stackoverflow.com
+www.w3schools.com;
+
+www.stackoverflow.com;
+
 www.css-tricks.com
 
 ## License
