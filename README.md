@@ -12,6 +12,7 @@ Different CSS styling was applied to showcase the developer's ability to meet th
 This project was written from scratch by opening a new repository in GitHub and cloned to author's local computer where HTML and CSS pages were created. Git-tracked additions of each acceptance criteria was committed and pushed regularly. 
 Images used in the applications were downloaded and saved from Google searched results. One of the image was taken from the previous challenge.
 
+
 ## Credits
 The author has done a lot of outside research or GoogleFu by looking up codes to carry out certain functions such as Flexbox, Pseudo element (hover), how to embed links in images. The main sources are StackOverflow forum, W3schools website and CSS-tricks.
 www.w3schools.com;
