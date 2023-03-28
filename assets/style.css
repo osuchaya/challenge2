@@ -1,0 +1,84 @@
+header {
+    color: rgb(37, 24,218)
+}
+
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 100%;
+    background-image: linear-gradient(
+        rgba(194, 228, 26, 0.57) 0%,
+        rgba(234, 83, 19, 0.6) 100%);
+
+}
+
+ul {
+    background: rgb(178, 156, 229);
+    display:flex;
+    flex-direction: column;
+    flex-flow: row;
+    line-height:2;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+}   
+
+
+
+
+.flex-container1 {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    background-color: darkkhaki;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.flex-container2 {
+    width: 60%;
+    padding: 5% 5% 5% 5%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkseagreen;
+    row-gap:30px;
+    text-align: center;
+    
+    ;
+}
+
+h3 {
+    text-decoration: underline;
+}
+.flex-container2 .zoom-box {
+    transition: all .2s ease-in-out;
+}
+
+.zoom-box:hover {
+    transform: scale (1.2);
+}
+
+aside {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+footer {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width: 992px) {
+    
+body {
+    background: rgb(220, 50, 206);
+}
+
+@media screen and (max-width: 992px) {
+    .flex-container1 {
+        flex: 0 0 33%
+    }
+}
