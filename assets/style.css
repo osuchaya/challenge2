@@ -57,9 +57,16 @@ h3 {
 .flex-container2 .zoom-box {
     transition: all .2s ease-in-out;
 }
-
+img {
+    padding: 15px 5px 15px 5px;
+    border: 2px solid lightslategray;
+    max-width: 100%;
+}
+.zoom-box {
+    transition: all .2s ease-in-out;
+}
 .zoom-box:hover {
-    transform: scale (1.2);
+    transform: scale(1.2)
 }
 
 aside {
